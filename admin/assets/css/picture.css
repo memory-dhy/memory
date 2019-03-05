@@ -1,0 +1,13 @@
+.images{
+	list-style-type: none;
+}
+.images li{
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+}
+.images li img{
+	width: 100%;
+	height: 100%;
+}

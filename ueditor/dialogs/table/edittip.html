@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>表格删除提示</title>
+    <script type="text/javascript" src="../internal.js"></script>
+    <style type="text/css">
+        .section {
+            width: 200px;
+            margin: 10px auto 0;
+            font-size: 14px;
+        }
+
+        .item {
+            text-align: center;
+        }
+    </style>
+<!-- cfdhy.top Baidu tongji analytics -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?1d0d213c65d2c2ae0dc375c2c6429a5d";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+<div class="section">
+    <div class="item">
+        <label><input type="radio" id="J_delRow" name="cmd" checked/><var id="lang_delRow"></var></label>
+    </div>
+    <div class="item">
+        <label><input type="radio" id="J_delCol" name="cmd"/><var id="lang_delCol"></var></label>
+    </div>
+</div>
+<script type="text/javascript">
+    dialog.onok = function () {
+        $G("J_delRow").checked ? editor.execCommand("deleterow") : editor.execCommand("deletecol");
+    };
+</script>
+</body>
+</html>

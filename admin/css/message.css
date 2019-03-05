@@ -1,0 +1,20 @@
+
+.content{
+	overflow: hidden;
+	padding: 50px;
+}
+.content .message{
+	width: 100%;
+}
+.content ul{
+	list-style-type: none;
+	padding: 0;
+	/* margin: 25% auto; */
+}
+.content ul li{
+	/* height: px; */
+}
+.detailed{
+	margin: 0;
+	padding: 0;
+}

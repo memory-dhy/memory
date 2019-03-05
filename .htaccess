@@ -1,0 +1,6 @@
+RewriteEngine On
+ErrorDocument 404 /error.php
+RewriteRule ^error.html$ /error.php
+RewriteRule ^article.html$ /article.php
+RewriteRule ^picture.html$ /picture.php
+RewriteRule ^(-?[1-9]\d*)-(-?[1-9]\d*)\.html$ /details.php?id=$2&page=$1
