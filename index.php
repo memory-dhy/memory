@@ -1,4 +1,4 @@
-<?php 
+<?php
 header('content-type:text/html;charset=utf-8');
 include_once('Library/pdo.class.php');
 include_once('Library/page.class.php');
@@ -37,7 +37,7 @@ $img = json_decode($result['aimg']);
 										<li><a href="#contact" class="button">留言</a></li>
 									</ul>
 								</nav>
-								
+
 							</div>
 						</div>
 					</article>
@@ -102,8 +102,8 @@ $img = json_decode($result['aimg']);
 				<!-- Footer -->
 					<?php include_once('common/footer.php'); ?>
 			</div>
-		
-			
+
+
 	</body>
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
