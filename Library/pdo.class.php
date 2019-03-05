@@ -38,5 +38,5 @@ class PdoManager{
 		$this->conn = null;
 	}
 }
-$pdo = new PdoManager('mysql:host=bdm281033312.my3w.com;dbname=bdm281033312_db','bdm281033312','dhy8632dhy');
+$pdo = new PdoManager('mysql:host=127.0.0.1;dbname=memory','root','root');
 ?>
